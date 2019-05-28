@@ -1,0 +1,12 @@
+:root {
+  --awesomeColor: 1px solid #84efb1;
+}
+
+li:first-child a {
+  border: var(--awesomeColor);
+}
+
+@custom-selector :--headers h1, h2, h3, h4, h5, h6;
+:--headers {
+  color: #8e44ad;
+}
